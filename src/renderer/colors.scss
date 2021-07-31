@@ -1,0 +1,50 @@
+$opaque : RGB(0,0,0,0);
+$purple: rgba(22,22,33,1);
+$metallicgray: rgba(74, 75, 94, 1);
+$metallicgray-transparent: rgba(74, 75, 94, 0.1);
+$silver: rgba(81, 82, 100, 1);
+$darksilver: rgba(54, 54, 66, 1);
+$darkgray: rgba(44, 44, 56, 1);
+$pearl: rgba(255,255,255,0.7);
+$emerald: rgba(12, 82, 64, 1);
+$emerald-transparent: rgba(12, 82, 64, 0.1);
+$aquamarine: #7fffd4;
+$red: #cc0000;
+$yellow: #ffff00;
+$purplish-grey: #1f1f7a;
+$white: #FFFFFF;
+$green: #007500;
+$gray: #888888;
+$blue: #00B2EE;
+
+$primary-green-50: #F0F7EB;
+$primary-green-100: #DAECCC;
+$primary-green-200: #C3DFAC;
+$primary-green-300: #ACD28C;
+$primary-green-400: #9AC873;
+$primary-green-500: #8ABF5D;
+$primary-green-600: #7BAF54;
+$primary-green-700: #699B4A;
+$primary-green-800: #578740;
+$primary-green-900: #3A6430;
+
+$primary-dark-1: #0A0A0A;
+$primary-dark-2: #101015;
+//#101015
+//old color #181818;
+$primary-dark-3: #3d3f4f;
+//old color #282828;
+
+
+$disabled-state: rgb(255,255,255,0.15);
+$inactive-state: rgba(255,255,255,0.38);
+$high-emphasis-text: rgba(255,255,255,0.87);
+$low-emphasis-text: rgba(255,255,255,0.67);
+
+$gradh-purple-metallicgray-purple: linear-gradient($purple, $metallicgray, $purple);
+$gradv-purple-opaque: linear-gradient(to right, $purple, $opaque);
+$gradv-metallicgray-transparent-opaque: linear-gradient(to right, $metallicgray-transparent, $opaque);
+$gradv-emerald-opaque: linear-gradient(to right, $emerald, $opaque);
+$gradh-darksilver-silver-darksilver: linear-gradient($darksilver, $silver, $darksilver);
+
+$discord-purple: #7289da;
